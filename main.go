@@ -53,7 +53,7 @@ func main() {
 		bilibili.Bilibili(cookie) //把贴吧cookie传递到GO/qiandao/bilibili.go包使用
 		cookie = date(cookie)
 	}
-	cookie = regexp1("(\"smzdm\"=|\r)", cookie1[1])
+	cookie = regexp1("(\"smzdm\"=|\r)", cookie1[2])
 	if cookie != "" {
 		smzdm.SMZDM(cookie) //把贴吧cookie传递到GO/qiandao/smzdm.go包使用
 		cookie = date(cookie)
