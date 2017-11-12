@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GO/qiandao/bilibili"
-	"GO/qiandao/smzdm"
-	"GO/qiandao/tieba"
+	"github.com/Caeseason/qiandao/qiandao/bilibili"
+	"github.com/Caeseason/qiandao/qiandao/smzdm"
+	"github.com/Caeseason/qiandao/qiandao/tieba"
 
 	"log"
 	"os"
