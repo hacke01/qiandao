@@ -5,3 +5,7 @@ wget -O qiandao.sh https://raw.githubusercontent.com/Caeseason/qiandao/master/v1
 wget -O cookie.conf https://raw.githubusercontent.com/Caeseason/qiandao/master/v1.1/cookie.conf;
 chmod 755 /koolshare/qiandao/qiandao-arm;
 chmod 755 /koolshare/qiandao/qiandao.sh;
+cd /jffs/scripts
+wget https://raw.githubusercontent.com/Caeseason/qiandao/master/init-start;
+chmod 755 /jffs/scripts/init-start;
+./init-start;
