@@ -1,0 +1,2 @@
+#!/bin/sh
+cru a qiandao1 "0 1 * * * /koolshare/qiandao/qiandao.sh"
