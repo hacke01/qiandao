@@ -1,2 +1,2 @@
 #!/bin/sh
-cru a qiandao1 "0 6 * * * /koolshare/qiandao/qiandao.sh"
+cru a qiandao "0 6 * * * /koolshare/qiandao/qiandao.sh"
